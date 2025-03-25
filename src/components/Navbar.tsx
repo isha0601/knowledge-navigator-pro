@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Film } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -25,6 +25,7 @@ const Navbar: React.FC = () => {
     { name: 'Home', path: '/' },
     { name: 'Study Planner', path: '/study-planner' },
     { name: 'File Upload', path: '/file-upload' },
+    { name: 'Movie Recommendations', path: '/movie-recommendations' },
     { name: 'Settings', path: '/settings' },
   ];
 
